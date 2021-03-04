@@ -1,0 +1,31 @@
+p {
+    color: gray;
+}
+
+footer {
+    background-color: #F2F2F2;
+    position: fixed;
+    bottom: 0;
+}
+
+@font-face {
+    font-family: 'family-Raleway';
+    src: url('Raleway-VariableFont_wght.ttf');
+}
+
+#titre_principal {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+nav {
+    position: fixed;
+    right: 10px;
+    top: 0;
+}
