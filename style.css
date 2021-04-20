@@ -588,16 +588,7 @@ footer a:hover {
     color: #0065FC;
 }
 
-
-/*enleve la loupe sur grand ecrans*/
-
-@media screen and (min-width: 601px) {
-    button .fa-search {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1378px) {
+@media screen and (max-width: 1024px) {
     .filtres label {
         font-size: 1em;
     }
@@ -658,7 +649,7 @@ footer a:hover {
 
 /*######################################*/
 
-@media screen and (max-width: 811px) and (min-width: 480px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     #filtres {
         width: 100%;
         margin-bottom: 15px;
@@ -727,7 +718,7 @@ footer a:hover {
 
 /*###################################*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .header {
         flex-wrap: wrap;
         margin: 0px;
@@ -878,7 +869,7 @@ footer a:hover {
 
 /*Smartphone Horizontal*/
 
-@media screen and (min-width: 812px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .filtres {
         flex-wrap: wrap;
         justify-content: center;
@@ -901,7 +892,7 @@ footer a:hover {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
     .fa-chart-line {
         margin-left: 53px;
     }
@@ -920,6 +911,10 @@ footer a:hover {
 }
 
 @media screen and (min-width: 1441px) {
+    /*enleve la loupe sur grand ecrans*/
+    button .fa-search {
+        display: none;
+    }
     .main {
         margin: auto;
         margin-top: 43px;
