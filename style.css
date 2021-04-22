@@ -268,24 +268,24 @@ button span {
 }
 
 .eco:after {
-    font-family: "font awesome 5 free";
+    font-family: "font awesome 5 pro";
     content: "\f53a";
 }
 
 .fam:after {
-    font-family: "font awesome 5 free";
+    font-family: "font awesome 5 pro";
     content: "\f1ae";
 }
 
 .rom:after {
-    font-family: "font awesome 5 free";
+    font-family: "font awesome 5 pro";
     font-weight: 900;
     content: "\f004";
     color: #0065fc;
 }
 
 .dog:after {
-    font-family: "font awesome 5 free";
+    font-family: "font awesome 5 pro";
     content: "\f6d3";
 }
 
