@@ -627,6 +627,7 @@ footer a:hover {
     #filtres {
         width: 100%;
         margin-bottom: 15px;
+        margin-left: 55px;
     }
     .filtres {
         display: flex;
@@ -760,7 +761,7 @@ footer a:hover {
     }
     .filtres label,
     .filtres class {
-        margin: 5px;
+        margin: 2px;
     }
     .info {
         margin-left: 20px;
