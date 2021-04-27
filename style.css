@@ -317,14 +317,14 @@ i.fa-info {
 
 .hebergements .vignette img {
     height: 100%;
-    width: 236px;
+    width: 100%;
     max-height: 114px;
     border-radius: 10px 10px 0 0;
 }
 
 .hebergements .vignette {
     background: white;
-    width: 246px;
+    width: 30%;
     height: fit-content;
     border-radius: 10px;
     padding: 5px;
@@ -664,6 +664,9 @@ footer a:hover {
         flex-wrap: wrap;
         grid-template-columns: repeat(2, auto);
         justify-items: center;
+    }
+    .hebergements .vignette {
+        width: 90%;
     }
     .hebergements h4 {
         justify-self: baseline;
